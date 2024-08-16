@@ -1,0 +1,428 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    width: 100% auto;
+}
+body{
+    width: 100%;
+    
+}
+header{
+    padding: 15px;
+    background-color: rgb(3, 48, 17);
+    margin: 0 Auto;
+    position: fixed;
+    width: 100%;
+}
+.btn1{
+    background-color: rgb(3, 48, 17);
+    color: white;
+    padding: 10px 15px;
+    font-weight: 1200px;
+    font-size: 30px;
+    border: 2px solid rgb(7, 165, 57);
+}
+.btn1:hover{
+    background-color: rgb(7, 165, 57);
+}
+#p1{
+    font-size: 100px;
+    color: rgb(3, 48, 17);
+    text-shadow: 3px 3px rgb(7, 165, 57);
+}
+#p2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.conca{
+    background-image: url(1a.jpg);
+    background-size: 100%;
+    padding: 300px;
+    background-attachment: fixed;
+    margin: auto;
+}
+.boot-col{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    flex: 2;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.bootlist{
+    background-color: rgb(230, 230, 229);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0;
+}
+.bootlist img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.hn2{
+    font-size: 25px;
+    padding: 25px;
+    color: green;
+}
+.hn3{
+    font-size: 25px;
+    padding: 25px;
+    color: blue;
+}
+.hn4{
+    font-size: 25px;
+    padding: 25px;
+    color: red;
+}
+.para2{
+    font-size: 17px;
+    padding: 0 30px 30px 30px;
+}
+.btn2{
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.btn3{
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.btn4{
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.boot-col2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    flex: 2;
+    margin: 40px;
+}
+.bootlist2{
+    background-color: rgb(230, 230, 229);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0;
+}
+.bootlist2 img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.hn6{
+    font-size: 25px;
+    padding: 25px;
+    color:  black;
+}
+.para6{
+    font-size: 17px;
+    padding: 0 30px 30px 30px;
+}
+.btn6{
+    width: 200px;
+    height: 30px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.btn6:hover{
+    background-color:  rgb(230, 230, 229);
+}
+.sv1{
+    font-size: 40px;
+    color: white;
+}
+.sv2{
+    font-size: 18px;
+    color: white;
+}
+.service{
+    background-image: url(1c.jpg);
+    padding: 150px;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.boot-col3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    flex: 2;
+    margin: 40px;
+}
+.boot-col4{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 40px;
+}
+.form1{
+    background-image: url(13.jpg);
+    background-size: 100%;
+    padding: 80px 150px 150px 150px;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+input{
+    width: 100%;
+    height: 30px;
+    gap: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-color: transparent;
+    border-radius: 8px;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    scrollbar-width: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-color: transparent;
+    border-radius: 8px;  
+}
+
+.fh1{
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 600px;
+}
+.fp1{
+    font-size: 16px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 15px;
+    border-radius: 6px;
+}
+.btn7{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(3, 48, 17);
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.end{
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.p11{
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 15px;
+    
+}
+.p12{
+    font-size: 16px;
+    color: slategrey;
+    padding-bottom: 30px;
+}
+.p13{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.p14{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+#fh{
+    color:  rgb(3, 48, 17);
+    font-style: normal;
+}
+@media (max-width: 500Px){
+    body{
+        width: 100%;
+    }
+    header{
+        display: none;
+    }
+    #p1{
+        font-size: 45px;
+    }
+    #p2{
+        font-size: 20px;
+    }
+    .conca{
+        padding: 50px;
+    }
+    .boot-col{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+    .bootlist{
+        background-color: rgb(230, 230, 229);
+        padding-bottom: 20px;
+        text-align: center;
+        margin: Auto;
+    }
+    .bootlist img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .hn2{
+        font-size: 25px;
+        padding: 25px;
+        color: green;
+    }
+    .hn3{
+        font-size: 25px;
+        padding: 25px;
+        color: blue;
+    }
+    .hn4{
+        font-size: 25px;
+        padding: 25px;
+        color: red;
+    }
+    .para2{
+        font-size: 17px;
+        padding: 0 10px 20px 10px;
+    }
+    .boot-col2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        flex: 2;
+        margin:10px 10px 10px 10px;
+    }
+    .bootlist2{
+        background-color: rgb(230, 230, 229);
+        padding-bottom: 20px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .sv1{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    .sv2{
+        font-size: 16px;
+        color: white;
+    }
+    .service{
+        background-image: url(1c.jpg);
+        padding: 30px;
+        background-attachment: scroll;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+    }
+    .boot-col3{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        flex: 2;
+        margin: 10px;
+    }
+    .boot-col4{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .form1{
+        background-image: url(13.jpg);
+        background-size: 300%;
+        padding: 50px 10px 50px 10px;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    
+    }
+    input{
+        width: 97%;
+        height: 50px;
+        gap: 5px;
+        padding-left: 10px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        border-color: transparent;
+    }
+    textarea{
+        width: 95%;
+        height: 200px;
+        resize: none;
+        scrollbar-width: none;
+        padding: 10px;
+        margin-bottom: 15px; 
+        border-radius: 8px;
+        border-color: transparent;
+    }
+    
+    .fh1{
+        font-size: 25px;
+        margin-bottom: 50px;
+        color: white;
+        font-weight: 600px;
+    }
+    .fp1{
+        font-size: 16px;
+        margin-bottom: 40px;
+        background-color: rgba(255, 255, 255, 0.55);
+        padding: 15px;
+        border-radius: 6px;
+    }
+    .btn7{
+        width: 120px;
+        height: 40px;
+        background-color: rgb(3, 48, 17);
+        color: white;
+        border: 1px solid white;
+        border-radius: 6px;
+    }
+    .end{
+        margin-top: 50px;
+        width: 100%;
+        
+    }
+    .p11{
+        font-size: 30px;
+        font-style: italic;
+        padding-bottom: 15px;
+        
+    }
+    .p12{
+        font-size: 16px;
+        color: slategrey;
+        padding-bottom: 30px;
+    }
+    .p13{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .p14{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    #fh{
+        color:  rgb(3, 48, 17);
+        font-style: normal;
+    }
+       
+}
